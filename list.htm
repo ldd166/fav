@@ -1,0 +1,170 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>列表导航页面</title>
+<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<style>
+body { margin:0px; padding:3px; /*overflow-x:hidden;*/ padding-right:0px; }
+#shouye { display:block; margin:0px 1px 0px 1px; padding-left:17px; background:url(images/1.png) no-repeat; height:20px; background-color: #fafafa; background-position: 2px 3px; line-height: 20px; font-family: "宋体"; font-size: 12px; font-style: normal; text-decoration:none; color:#000;  }
+#shouye:hover,#shouye:active{ background-color:#cbe2e5; overflow:hidden; background-repeat: no-repeat; background-position: 2px 3px; text-decoration:none; color:#C00; }
+a { display:block; margin:2px 1px 0px 1px; padding-left:17px; background:url(images/2.png) no-repeat; height:20px; background-color: #fafafa; background-position: 2px 3px; line-height: 20px; font-family: "宋体"; font-size: 12px; font-style: normal; text-decoration:none; color:#000; }
+a:hover,a:active{ background-color:#cbe2e5; background-repeat: no-repeat; background-position: 2px 3px; text-decoration:none; color:#F00; }
+ul { list-style-type: none; padding: 0; margin:0px; }
+h1 { margin:0px; cursor:pointer; }
+h2 { margin:0px; overflow:hidden; height:0px; }
+.dh_list li h1 { display:block; line-height: 17px; }
+.dh_list li h1 a { font-family: "宋体"; font-size: 12px; font-style: normal; text-decoration:none; color:#F00; font-weight:normal;background:url(images/jia.png) no-repeat; background-color: #fafafa; background-position: 2px 3px; }
+.dh_list li h1 a:hover,#dh_list li h1 a:active{ background-color:#cbe2e5; background-repeat: no-repeat; background-position: 2px 3px; text-decoration:none; color:#009; }
+.dh_list li h2 a { font-family: "宋体"; font-size: 12px; font-style: normal; text-decoration:none; color:#000; font-weight:normal; text-indent:10px; background:url(images/2.png) no-repeat; background-position: 12px 3px; background-color: #fafafa; }
+.dh_list li h2 a:hover,#dh_list li h2 a:active{ background-color:#cbe2e5; background-repeat: no-repeat; background-position: 12px 3px; text-decoration:none; }
+</style>
+<script src="js/xcmp.js" type="text/javascript"></script>
+</head>
+<body onContextMenu="return false;" onSelectStart="return false">
+<a id="shouye" style="cursor:pointer;">【十年影视】最新电影就在十年影院...</a>
+<div id="lists">
+	<div id="qian">
+        
+        <a href="javascript:play('0');" id="">┏━━━━━━━━━━━━━━━┓</a>      
+        <a href="javascript:play('qy=19rrepqkes');">┃┊电影┊遇见你真好★★★★　</a>      
+        <ul class="dh_list"><li><h1>
+        <a class="a_list">     ┃┊测试┊测试音乐</a></h1>   
+        <h2>
+        <a href="javascript:play('yk=XMzQ3NDExODk5Mg==');">┃清晰┊优酷抖音音乐　　　 　</a>
+        <a href="javascript:play('yk=XMzQ2NzIyNjMxMg==');">┃抖音最火的10首背景音乐,      </a> 
+        <a href="javascript:play('yk=XMzUzODI1MDE3Ng==');">┃抖音热门爱着爱着就永远       </a> 
+        <a href="javascript:play('yk=XMzQ4NDY0OTU5Ng==');">┃抖音热门                     </a> 
+        <a href="javascript:play('yk=XMzUwMzExOTEzMg==');">┃抖音-起风了</a> 
+        <a href="javascript:play('qy=19rrm5jnqs');">┃清晰┊奇艺　　　　</a>
+        <a href="javascript:play('yy=163/108478');">┃音乐┊醉赤壁　　　　</a>
+        <a href="javascript:play('yy=163/432506345');">┃音乐┊童话镇　　　　</a>
+        <a href="javascript:play('tv=music');">┃清晰┊　163　　　　</a>
+        <a href="javascript:play('qb=qASXj6tI');">┃┊MV┊不将就</a>
+        <a href="javascript:play('qb=rFCMXf7n');">┃┊MV┊秋天不回来</a>
+        </h2>
+        </li></ul>
+        <ul class="dh_list">
+            <li>
+                <h1>
+                    <a class="a_list" >┃┊剧集┊北京女子图鉴      ★★★★★</a>
+                </h1>
+                <h2>
+                    <a href="javascript:play('yk=XMzU1MjQyNzk2OA==');">┃北京女子图鉴第14集</a>
+                    <a href="javascript:play('yk=XMzUzNzU1ODM1Mg==');">┃北京女子图鉴第13集</a>
+                    <a href="javascript:play('yk=XMzUzNzU1NzMzNg==');">┃北京女子图鉴第12集</a>
+                    <a href="javascript:play('yk=XMzUyMDcxOTUzNg==');">┃北京女子图鉴第11集</a>
+                    <a href="javascript:play('yk=XMzUyMDcxNzA4MA==');">┃北京女子图鉴第10集</a>
+                    <a href="javascript:play('yk=XMzUyMDU4MDM0MA==');">┃北京女子图鉴第9集</a>
+                    <a href="javascript:play('yk=XMzUyMDU3ODg5Mg==');">┃北京女子图鉴第8集</a>
+                    <a href="javascript:play('yk=XMzUyMDU3MjY0MA==');">┃北京女子图鉴第7集</a>
+                    <a href="javascript:play('yk=XMzUyMDQ1MTE5Mg==');">┃北京女子图鉴第6集</a>
+                    <a href="javascript:play('yk=XMzUyMDQ0ODkyMA==');">┃北京女子图鉴第5集</a>
+                    <a href="javascript:play('yk=XMzUyMDQzNzA4OA==');">┃北京女子图鉴第4集</a>
+                    <a href="javascript:play('yk=XMzUyMDMxMjIyNA==');">┃北京女子图鉴第3集</a>
+                    <a href="javascript:play('yk=XMzUyMDMxMjQxNg==');">┃北京女子图鉴第2集</a>
+                    <a href="javascript:play('yk=XMzUyMDMxMjgzNg==');">┃北京女子图鉴第1集</a>
+                </h2>
+            </li>
+        </ul>   
+<a href="javascript:play('p=16');">     ┃┊好文┊十年后,您给孩子的是......</a>  
+<a href="javascript:play('ol=2');">	┃┊直播┊网络电视┃在线直播大全	</a>
+<a href="javascript:play('ol=91');">	┃┊影集┊搜狐电影	</a>
+<a href="javascript:play('ol=92');">	┃┊影集┊芒果电影	</a>
+<a href="javascript:play('ol=93');">	┃┊剧集┊芒果电视剧	</a>
+<a href="javascript:play('ol=97');">	┃┊直播┊翡翠台直播--超清画质 	</a>
+<a href="javascript:play('ol=110');">	┃┊电影┊机器之血	</a>
+<a href="javascript:play('ol=90');">	┃┊剧集┊搜狐电视剧	</a>
+<a href="javascript:play('ol=3');">	┃┊音乐┊DJ嗨曲音乐	</a>
+<a href="javascript:play('ol=99');">	┃┊电影┊战狼1 吴京	</a>
+<a href="javascript:play('ol=15');">	┃┊直播┊战狼2 吴京	</a>
+<a href="javascript:play('ol=5');">	┃┊直播┊湖南卫视	</a>
+<a href="javascript:play('ol=6');">	┃┊电影┊捉妖记	</a>
+<a href="javascript:play('ol=111');">	┃┊电影┊捉妖记2-★★★★★	</a>
+<a href="javascript:play('ol=7');">	┃┊电影┊道士下山	</a>
+<a href="javascript:play('ol=72');">	┃┊剧集┊大好时光┊★★★★★	</a>
+<a href="javascript:play('ol=8');">	┃┊电影┊碟中谍5：神秘国度	</a>
+<a href="javascript:play('ol=9');">	┃┊直播┊盗墓笔记　	</a>
+<a href="javascript:play('ol=10');">	┃┊体育┊CCTV5-体育	</a>
+<a href="javascript:play('ol=11');">	┃┊电影┊港囧 徐峥 赵薇 包贝尔	</a>
+<a href="javascript:play('ol=12');">	┃┊音乐┊尽享音乐	</a>
+<a href="javascript:play('ol=13');">	┃┊剧集┊太阳的后裔	</a>
+<a href="javascript:play('ol=14');">	┃┊剧集┊青年医生	</a>
+<a href="javascript:play('ol=16');">	┃┊电影┊大话西游3	</a>
+<a href="javascript:play('ol=17');">	┃┊电影┊暗杀游戏	</a>
+<a href="javascript:play('ol=18');">	┃┊电影┊微微一笑很倾城	</a>
+<a href="javascript:play('ol=19');">	┃┊电影┊夺路而逃	</a>
+<a href="javascript:play('ol=20');">	┃┊电影┊危城	</a>
+<a href="javascript:play('ol=21');">	┃┊电影┊四平青年之浩哥大战古惑仔	</a>
+<a href="javascript:play('ol=22');">	┃┊电影┊鲨滩	</a>
+<a href="javascript:play('ol=23');">	┃┊电影┊传染	</a>
+<a href="javascript:play('ol=24');">	┃┊电影┊青春不错爱	</a>
+<a href="javascript:play('ol=25');">	┃┊电影┊王牌逗王牌	</a>
+<a href="javascript:play('ol=26');">	┃┊电影┊绝地逃亡	</a>
+<a href="javascript:play('ol=27');">	┃┊电影┊谍影重重5	</a>
+<a href="javascript:play('ol=28');">	┃┊电影┊封神传奇	</a>
+<a href="javascript:play('ol=29');">	┃┊电影┊速度与激情4	</a>
+<a href="javascript:play('ol=30');">	┃┊电影┊反贪风暴2	</a>
+<a href="javascript:play('ol=31');">	┃┊电影┊加勒比海盗4：惊涛怪浪	</a>
+<a href="javascript:play('ol=32');">	┃┊电影┊死神来了5	</a>
+<a href="javascript:play('ol=33');">	┃┊电影┊生死狙击	</a>
+<a href="javascript:play('ol=34');">	┃┊电影┊神兽金刚之青龙再现	</a>
+<a href="javascript:play('ol=35');">	┃┊电影┊无限复活	</a>
+<a href="javascript:play('ol=36');">	┃┊电影┊霍拉斯一家	</a>
+<a href="javascript:play('ol=37');">	┃┊电影┊独鲁万的困境	</a>
+<a href="javascript:play('ol=38');">	┃┊电影┊愈合	</a>
+<a href="javascript:play('ol=39');">	┃┊电影┊圣诞天籁	</a>
+<a href="javascript:play('ol=40');">	┃┊电影┊热血雷锋侠之激情营救	</a>
+<a href="javascript:play('ol=41');">	┃┊电影┊同等族群	</a>
+<a href="javascript:play('ol=42');">	┃┊电影┊奇葩兄妹	</a>
+<a href="javascript:play('ol=43');">	┃┊电影┊无人生还	</a>
+<a href="javascript:play('ol=44');">	┃┊电影┊辣警霸王花	</a>
+<a href="javascript:play('ol=45');">	┃┊电影┊斗艳	</a>
+<a href="javascript:play('ol=46');">	┃┊电影┊黑色代码第1季	</a>
+<a href="javascript:play('ol=47');">	┃┊电影┊一千零一夜1：不安之人	</a>
+<a href="javascript:play('ol=48');">	┃┊电影┊一千零一夜2：凄凉之人	</a>
+<a href="javascript:play('ol=49');">	┃┊电影┊女子解禁区	</a>
+<a href="javascript:play('ol=50');">	┃┊电影┊机械师2：复活	</a>
+<a href="javascript:play('ol=51');">	┃┊电影┊疯狂丑小鸭	</a>
+<a href="javascript:play('ol=52');">	┃┊电影┊流浪的迪潘	</a>
+<a href="javascript:play('ol=53');">	┃┊电影┊每个人都有秘密	</a>
+<a href="javascript:play('ol=54');">	┃┊音乐┊新的心跳	</a>
+<a href="javascript:play('ol=76');">	┃┊音乐┊ 站长个人最爱 &#10084;	</a>
+<a href="javascript:play('ol=55');">	┃┊电影┊骗爱天团	</a>
+<a href="javascript:play('ol=56');">	┃┊电影┊误闯疯人院	</a>
+<a href="javascript:play('ol=57');">	┃┊电影┊迈耶斯家的圣诞节	</a>
+<a href="javascript:play('ol=58');">	┃┊电影┊电竞高校Ⅱ	</a>
+<a href="javascript:play('ol=59');">	┃┊电影┊寡妇刺客	</a>
+<a href="javascript:play('ol=60');">	┃┊电影┊封神传奇	</a>
+<a href="javascript:play('ol=61');">	┃┊电影┊X战警：天启	</a>
+<a href="javascript:play('ol=62');">	┃┊电影┊惊天魔盗团2	</a>
+<a href="javascript:play('ol=63');">	┃┊电影┊魔兽	</a>
+<a href="javascript:play('ol=64');">	┃┊电影┊哈利·波特与混血王子	</a>
+<a href="javascript:play('ol=65');">	┃┊电影┊加勒比海盗4：惊涛怪浪	</a>
+<a href="javascript:play('ol=66');">	┃┊电影┊寒战2	</a>
+<a href="javascript:play('ol=67');">	┃┊电影┊卧虎藏龙：青冥宝剑	</a>
+<a href="javascript:play('ol=68');">	┃┊电影┊赌神归来2之黄金赌城	</a>
+<a href="javascript:play('ol=69');">	┃┊电影┊速度与激情	</a>
+<a href="javascript:play('ol=70');">	┃┊电影┊疯狂动物城	</a>
+<a href="javascript:play('ol=71');">	┃┊电影┊死亡飞车	</a>
+<a href="javascript:play('ol=74');">	┃┊音乐┊薛之谦音乐 	</a>
+<a href="javascript:play('ol=75');">	┃┊音乐┊孙子涵专辑!	</a>
+<a href="javascript:play('ol=89');">	┃┊音乐┊庄心妍音乐!	</a>
+<a href="javascript:play('ol=94');">	┃┊音乐┊李玉刚音乐!	</a>
+<a href="javascript:play('ol=95');">	┃┊音乐┊夏天ALEX音乐!	</a>
+<a href="javascript:play('ol=96');">	┃┊音乐┊金志文专辑	</a>
+<a href="javascript:play('ol=109');">	┃┊音乐┊ 张韶涵 第一页	</a>
+<a href="javascript:play('ol=98');">	┃┊工具┊特殊符号①	</a>
+<a href="javascript:play('ol=108');">	┌┄━┄━┄━┄━┄━┄━┄━┄┐	</a>
+<a href="javascript:play('ol=107');">	│ ╱◥█◣^^ ╪zｚ 八 零 年 代 │	</a>
+<a href="javascript:play('ol=106');">	│　田┃ 田┃ ぃ┏━┓ ●╭○╮ │	</a>
+<a href="javascript:play('ol=105');">	││⿶⿶⿶⿶⿶⿶　┃戀┃/█∨█ │	</a>
+<a href="javascript:play('ol=104');">	│╪╪╪╪╪╪　┗━┛　 ∏　∏o│	</a>
+<a href="javascript:play('ol=103');">	│ 十年影院　　ldd166@163.com　 │	</a>
+<a href="javascript:play('ol=102');">	│ 本站所有内容均靠程序搜集来　 │	</a>
+<a href="javascript:play('ol=73');">	│目前正在逐步删除规避版权影视　│	</a>
+<a href="javascript:play('ol=101');">	│若侵犯您的权益请即时发邮件谢谢│	</a>
+<a href="javascript:play('ol=100');">	└┄━┄━┄━┄━┄━┄━┄━┄┘	</a>
+</div>
+</body>
+</html>
